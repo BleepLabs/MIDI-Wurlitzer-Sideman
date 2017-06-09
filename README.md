@@ -3,10 +3,10 @@ Adding USB and DIN MIDI as well as CV trigger inputs to a 1959 drum machine<br>
 <br>
 The external trigger unit must be connected to the Sideman with a stereo 1/8" cable. This provides power and communication.<br>
 
-A motor switch has been added. This turn off the motor, reguardless of wether the swithc is on or off. 
-So as not to have the triggers MIDI or buttons trigger multiple sounds, always turn both switches off when not using the internal sequencer. 
+A motor switch has been added. This turn off the motor, reguardless of wether the swithc is on or off. <br>
+So as not to have the triggers MIDI or buttons trigger multiple sounds, always turn both switches off when not using the internal sequencer. <br>
 <br>
-CV triggers v
+CV triggers <br>
 Any CV signal will trigger the indicated sound. Sound is held on when trigger is high. Some sound have sustain while other's don't.<br>
 <br>
 MIDI<br>
@@ -27,7 +27,7 @@ Ab Brush<br>
 A Cymbal<br>
 <br>
 <br>
-Hardwarev
+Hardware<br>
 There is a separate Teensy LC in the control box and Sideman. <br>
 The external one reads the MIDI and triggers and sends another midi signal to the internal Teensy. <br>
 That one then turns on and off reed switches attached to the trigger buttons.<br>
